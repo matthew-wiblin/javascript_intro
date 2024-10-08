@@ -1,0 +1,1 @@
+Some introdutory work with JavaScript and some small projects.
