@@ -5,6 +5,8 @@
     text-shadow: 0px 50px 5px rgba(55, 172, 227);
 }
 
+/* This is for button counter */
+
 #countLabel{
     display: block;
     text-align: center;
@@ -27,3 +29,26 @@
 .buttons:hover{
     background-color: blue;
 }
+
+/* This is for random number generator */
+
+#randomNumber{
+    text-align: center;
+}
+.Labels{
+    font-size: 3em;
+}
+
+#randomButton{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(255, 111, 111);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+#randomButton:hover{
+    background-color: red;
+}
+
