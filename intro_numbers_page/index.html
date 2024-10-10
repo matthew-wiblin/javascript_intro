@@ -9,22 +9,49 @@
 <body>
     <h1 id="H1">Welcome</h1>
 
-    <label id="countLabel">0</label><br><br>
+    <h2>Button counter</h2>
+
+    <label id="countLabel">0</label><br>
     <div id="btnContainer">    
         <button id="decreaseBtn" class="buttons">Decrease</button>
         <button id="resetBtn" class="buttons">Reset</button>
         <button id="increaseBtn" class="buttons">Increase</button>
-    </div>
+    </div><br>
 
-    <br><br>
-    
+    <h2>Random number generator</h2>
+
     <div id="randomNumber">
         <button id="randomButton">Roll</button> <br>
-        <label id="Label1" class="Labels"></label><br>
-        <label id="Label2" class="Labels"></label><br>
+        <label id="Label1" class="Labels"></label>
+        <label id="Label2" class="Labels"></label>
         <label id="Label3" class="Labels"></label>
     </div>
 
+    <h2>Checkbox and radio</h2>
+
+    <div id="Subscribe">
+        <input type="checkbox" id="myCheckBox">
+        <label for="myCheckBox">Subscribe</label><br><br>
+
+        <input type="radio" id="visaBtn" name="card">
+        <label for="visaBtn">Visa</label>
+        <input type="radio" id="mastercardBtn" name="card">
+        <label for="mastercardBtn">MasterCard</label><br><br>
+
+        <button type="submit" id="subSubmit">Submit</button>
+        <p id="subResult"></p>
+        <p id="paymentResult"></p>
+    </div>
+
+    <h2>Guess a number</h2>
+
+    <div id="guessNumber">
+        <input type="number" id="guessInput" placeholder="Enter your guess" required>
+        <button id="submitGuess">Submit Guess</button>
+        <p id="onSubmitMessage"></p>
+    </div>
+    
+    <br><br><br>
     <script src="index.js"></script>
 </body>
 </html>
